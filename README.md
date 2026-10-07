@@ -17,7 +17,7 @@ Access is granted only if the user is either the resource's owner or has the adm
 {"user": {"name": "Faith", "role": "employee"}, "resource": {"name": "salary_report", "owner": "Faith", "sensitivity": "high"}}
 
 ### Result 1 - Permit (owner)
-![alt text](image.png)
+![alt text](images/image.png)
 
 
 ### Payload 2 — Admin requesting any resource
@@ -25,7 +25,7 @@ Access is granted only if the user is either the resource's owner or has the adm
 {"user": {"name": "Hope", "role": "admin"}, "resource": {"name": "salary_report", "owner": "Faith", "sensitivity": "high"}}
 
 ### Result 2 - Permit (admin)
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 
 ### Payload 3 — Neither admin nor owner
@@ -34,7 +34,7 @@ Access is granted only if the user is either the resource's owner or has the adm
 
 ### Result 3 - Deny
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 
 ## Features
